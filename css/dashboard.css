@@ -1,0 +1,155 @@
+/* Importação de fontes do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif; /* Fonte principal para todo o corpo */
+  background-color: #121212; /* Fundo escuro */
+  color: #dfe9f8; /* Texto claro */
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header */
+.header {
+  background-color: #1e1e1e; /* Fundo mais escuro que o body */
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Sombra sutil */
+}
+
+.header h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.header button {
+  background-color: #9B59B6; /* Cor roxa vibrante */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.header button:hover {
+  background-color: #8e44ad; /* Tom mais escuro ao passar o mouse */
+}
+
+/* Container principal */
+.container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#fileCardsContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 cards por linha */
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.action-button {
+  background-color: #9B59B6; /* Cor roxa vibrante */
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 0.9rem;
+  font-family: 'Roboto', sans-serif; /* Aplica a fonte Roboto */
+  font-weight: 700; /* Peso da fonte em negrito */
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.file-card {
+  background-color: #1e1e1e; /* Fundo escuro */
+  border: 2px solid #333; /* Borda discreta */
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Sombra leve */
+  text-align: center;
+  height: 250px; /* Altura fixa para quadrado */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.file-card h3 {
+  font-size: 1.2rem;
+  color: #9B59B6; /* Título em roxo */
+  margin-bottom: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.file-card p {
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+  color: #aaa; /* Cor mais clara para detalhes */
+}
+
+.file-card .actions {
+  display: flex;
+  justify-content: space-around;
+  margin-top: auto;
+}
+.file-card button {
+  background-color: #9B59B6;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 0.9rem;
+  font-family: 'Roboto', sans-serif; /* Aplica a fonte Roboto aos botões */
+  font-weight: 700; /* Peso da fonte em negrito */
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.file-card button:hover {
+  background-color: #8e44ad;
+}
+
+.action-button i {
+  font-size: 1.5rem; /* Ajuste o tamanho dos ícones do Material Icons */
+}
+
+#uploadButton {
+  background-color: #3498DB; /* Cor azul */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#uploadButton:hover {
+  background-color: #2980B9; /* Tom mais escuro ao passar o mouse */
+}

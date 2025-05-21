@@ -1,0 +1,14 @@
+Data de Upload: 2024-10-29T02:42:48.924Z
+Nome do Arquivo: nsGAMES.zip
+Tamanho Original: 1.59 GB
+Conteúdo do Zip:
+Pokemon - Emerald Version (USA, Europe)/
+Pokemon - Emerald Version (USA, Europe)/Pokemon - Black Version (USA, Europe) (NDSi Enhanced).nds
+Pokemon - Emerald Version (USA, Europe)/Pokemon - Emerald Version (USA, Europe).gba
+Pokemon - Emerald Version (USA, Europe)/Pokemon - Fire Red Version (U) (V1.1).gba
+Pokemon - Emerald Version (USA, Europe)/Pokemon - Platinum Version (USA).nds
+Pokemon - Emerald Version (USA, Europe)/Pokemon - SoulSilver Version (USA).nds
+Mario Party 9 (Europe) (EnFrDeEsIt)/
+Mario Party 9 (Europe) (EnFrDeEsIt)/Mario Party 9 (Europe) (En,Fr,De,Es,It).rvz
+Mario Party 9 (Europe) (EnFrDeEsIt)/New Super Mario Bros Wii [SMNE01].wbfs
+Mario Party 9 (Europe) (EnFrDeEsIt)/README.TXT

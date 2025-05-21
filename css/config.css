@@ -1,0 +1,153 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #121212; /* Fundo escuro */
+  color: #dfe9f8; /* Texto claro */
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header */
+.header {
+  background-color: #1e1e1e; /* Fundo mais escuro que o body */
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Sombra sutil */
+}
+
+.header h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.header button {
+  background-color: #9B59B6; /* Cor roxa vibrante */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.header button:hover {
+  background-color: #8e44ad; /* Tom mais escuro ao passar o mouse */
+}
+
+/* Container principal */
+.container {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Grade responsiva */
+  gap: 20px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Caixas (boxes) */
+.box {
+  background-color: #1e1e1e; /* Fundo escuro */
+  border: 2px solid #333; /* Borda discreta */
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Sombra leve */
+  overflow-y: auto; /* Rolagem interna se necessário */
+}
+
+.box h3 {
+  font-size: 1.2rem;
+  color: #9B59B6; /* Título em roxo */
+  margin-bottom: 15px;
+}
+
+.box label {
+  display: block;
+  margin-top: 10px;
+  font-size: 1rem;
+}
+
+.box input[type="text"],
+.box input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  background-color: #2b2b2b; /* Fundo mais escuro para inputs */
+  color: #dfe9f8; /* Texto claro */
+  border: none;
+  border-radius: 5px;
+  transition: border-color 0.3s ease;
+}
+
+.box input[type="text"]:focus,
+.box input[type="number"]:focus {
+  outline: none;
+  border: 2px solid #9B59B6; /* Destaque ao focar */
+}
+
+/* Botões dentro das caixas */
+.box button {
+  background-color: #9B59B6;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.box button:hover {
+  background-color: #8e44ad;
+}
+
+/* Botão "Remover" */
+.remove-button {
+  background-color: #e74c3c; /* Vermelho para botão de remoção */
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  font-size: 0.9rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.remove-button:hover {
+  background-color: #c0392b; /* Vermelho mais escuro ao passar o mouse */
+}
+
+/* Seção de Ações */
+.actions {
+  grid-column: span 3; /* Ocupa toda a largura da grade */
+  text-align: center;
+  margin-top: 20px;
+}
+
+.actions button {
+  background-color: #9B59B6;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.actions button:hover {
+  background-color: #8e44ad;
+}
